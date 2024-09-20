@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student data - Info</title>
+</head>
+<body>
+
+    <header>
+            <h1 style="text-align: center;">
+                Student Data Entry form
+            </h1>
+    </header>
+
+    <form action=""> 
+        
+        <label for="student">Student Name:</label>
+        <input type="text" name="student" autofocus required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <br>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            <label for="masculino"> Male</label>
+            <input type="radio" name="gender" value="male"> 
+            <label for="femenino"> Female</label>
+            <input type="radio" name="gender" value="female">
+        </div> <br>
+
+        <label for="checkbox">Subjet: </label>
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name="tamil">
+        <label for="Telugu">Telugu</label>
+        <input type="checkbox" name="Telugu">
+        <label for="English">English</label>
+        <input type="checkbox" name="English">
+        <label for="Physics">Physics</label>
+        <input type="checkbox" name="Physics">
+        <label for="Economics">Economics</label>
+        <input type="checkbox" name="Economics">
+        <br>
+        <br>
+        <label for="">city/country</label>
+        <select name="city" id="city">
+            <option value="obregon"> Obregon</option>
+            <option value="Empalme"> Empalme</option>
+            <option value="Navoyork"> Navoyork</option>
+            <option value="SanCarlos"> San Carlos</option>
+            <option value="Guaymas"> Guaymas</option>
+        </select>
+
+        <br><br>
+        <label for="textbox"> Comments: </label>
+        <textarea name="textaarea" rows=" 10" cols="30"></textarea>
+        <br><br>
+        <button type="reset"> Clear</button>
+        <button type="submit"> submit</button>
+    </form>
+</body>
+</html>
